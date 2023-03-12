@@ -20,9 +20,9 @@ vehiculo = Vehiculo("rojo","V21-543", "Honda")
 
 # -- Usando el método '__str__' nos retorna un valor a esa clase
 class Alumno:
-    def __init__(self, nombre, edad) -> None:
-        self.nombre = nombre
-        self.edad = edad
+    def __init__(self, nomb, ed) -> None:
+        self.nombre = nomb
+        self.edad = ed
 
     def __str__(self) -> str:
         return f'Nombre: {self.nombre}, Edad: {self.edad}'
