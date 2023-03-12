@@ -1,47 +1,47 @@
-number = 10
+#number = 10
 
-if number >11:
-    print('Es mayor que 11')
+# if number >11:
+   # print('Es mayor que 11')
 
-string = "Soy un String"
-boolean_true = True 
-boolean_false = False
-flotantes = 3.1416
+# string = "Soy un String"
+# boolean_true = True 
+# boolean_false = False
+# flotantes = 3.1416
 
-diccionarios = {
-    'nombre': 'Eduardo'
-}
+# diccionarios = {
+#     'nombre': 'Eduardo'
+# }
 
-listas = [1,2,3,'string',3.14]
+# listas = [1,2,3,'string',3.14]
 
-tuplas = ("texto_1", "texto_2","texto_3")
+# tuplas = ("texto_1", "texto_2","texto_3")
 
 # print(type(listas))
 
-x = 5
-y = 'cinco'
-X = 'numero'
-y = '5'
-y = int(y)
-y = str(y)
+# x = 5
+# y = 'cinco'
+# X = 'numero'
+# y = '5'
+# y = int(y)
+# y = str(y)
 
 # Formas correctas de nombrar variables
 
-numero_cinco = 5
-NumeroCinco = 5
-_numeroCinco = 5
+# numero_cinco = 5
+# NumeroCinco = 5
+# _numeroCinco = 5
 
 # ASIGNAR MULTIPLES VARIABLES
 
-a, b, c = 2, 5, 'string'
+# a, b, c = 2, 5, 'string'
 
-#print(a,b,c)
+# print(a,b,c)
 
 # creando funcion en python
 
-def myFuncion():
-    variable_1 = "texto de ejemplo"
-    print(variable_1)
+#def myFuncion():
+#    variable_1 = "texto de ejemplo"
+#    print(variable_1)
     
 #myFuncion()
 
@@ -86,7 +86,7 @@ def myFuncion():
 #     print(nombre)
 
 
-lista_numeros = [23, 24, 25, 26, 27]
+# lista_numeros = [23, 24, 25, 26, 27]
 
 #for num in lista_numeros:
 # print(num)
@@ -97,10 +97,17 @@ lista_numeros = [23, 24, 25, 26, 27]
 #         break
 #     print(num)
 
-for num in lista_numeros:
-    if num == 25:
-        continue
-    print(num)
+#for num in lista_numeros:
+#    if num == 25:
+#        continue
+#    print(num)
+
+## --- usando FOR
+
+cadena_texto = 'Hola, soy Alumno del G11 - Backend'
+
+# for letra in cadena_texto:
+print(cadena_texto[3])
 
 
 

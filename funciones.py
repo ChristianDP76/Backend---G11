@@ -20,23 +20,26 @@ def division(a, b):
 
 def calcularResultadoporOperacion(operacion, valor1, valor2):
     if operacion == 'suma':
-        return suma(valor1, valor2)
+        return f'El resultado de la {operacion} es: {suma(valor1, valor2)}'
     elif operacion == 'resta':
-        return resta(valor1, valor2)
+        return f'El resultado de la {operacion} es: {resta(valor1, valor2)}'
     else:
         return 'La Operación no Existe'
 
-# operacion = input('Ingrese el tipo de Operación: ')
-# valor_1= int(input('Ingrese el Primer número: '))
-# valor_2= int(input('Ingrese el Segundo número: '))
+operacion = input('Ingrese el tipo de Operación: ')
+valor_1= int(input('Ingrese el Primer número: '))
+valor_2= int(input('Ingrese el Segundo número: '))
 
-# resultado =calcularResultadoporOperacion(operacion, valor_1, valor_2)
-# print(f'El Resultado de la operación es: {resultado}')
+resultado =calcularResultadoporOperacion(operacion, valor_1, valor_2)
+print(resultado)
 
 # --- 'f' Método Format
-nombre = input('Ingrese su nombre: ')
-Edad = input('Ingrese su Edad: ')
-print(f'Hola {nombre}, tu tienes {Edad} años')
+# nombre = input('Ingrese su nombre: ')
+# Edad = input('Ingrese su Edad: ')
+# print(f'Hola {nombre}, tu tienes {Edad} años')
+
+
+
 
 
 
